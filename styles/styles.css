@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -36,7 +36,7 @@ body {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -46,7 +46,7 @@ body {
 .paragraph-text {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -66,7 +66,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -101,7 +101,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   float: left;
   padding-left: 24px;
 }
