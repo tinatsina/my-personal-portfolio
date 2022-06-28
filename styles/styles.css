@@ -7,6 +7,7 @@ body {
   background-image: url("../img/02.svg");
   background-repeat: no-repeat;
   height: 718px;
+  width: 375px;
 }
 
 .logo-text {
@@ -86,8 +87,9 @@ body {
   list-style: none;
 }
 
-.the-icon-list > li > img {
+.the-icon-list > li > a {
   padding-right: 15px;
+  text-decoration: none;
 }
 
 .logo-left {
@@ -111,4 +113,8 @@ body {
   width: 18px;
   height: 12px;
   padding-right: 35px;
+}
+
+.top-header {
+  margin-top: 12px;
 }
