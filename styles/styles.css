@@ -139,8 +139,8 @@ body {
   gap: 12px;
   width: 327px;
   height: 572px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 0;
@@ -152,12 +152,12 @@ body {
 .content-portfolio > h1 {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -167,7 +167,7 @@ body {
 .canopy {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -184,12 +184,12 @@ body {
 .no-canopy {
   width: 88px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -200,7 +200,7 @@ body {
 .content-portfolio > p {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -216,7 +216,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
@@ -232,22 +232,18 @@ body {
   align-items: center;
   padding: 4px 12px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #6070ff;
 }
 
 .see-project {
@@ -258,22 +254,18 @@ body {
   gap: 10px;
   width: 124px;
   height: 48px;
-  left: 0px;
-  top: calc(50% - 48px/2);
-  border: 1px solid #6070FF;
+  left: 0;
+  top: calc(50% - 48px / 2);
+  border: 1px solid #6070ff;
   border-radius: 8px;
-  width: 100px;
-  height: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -301,12 +293,10 @@ body {
   align-items: center;
   padding: 114px 24px;
   gap: 24px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
   top: 3506px;
   width: 375px;
   height: 1263px;
-  left: 375px;
-  top: 4769px;
-  background: #FFFFFF;
+  background: #fff;
   transform: rotate(-180deg);
 }
