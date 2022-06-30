@@ -122,7 +122,6 @@ body {
 .snapshoot-portfolio {
   width: 295px;
   height: 220px;
-  background: url("../img/07.png");
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -252,7 +251,6 @@ body {
   align-items: center;
   padding-left: 15px;
   gap: 10px;
-  width: 124px;
   height: 48px;
   left: 0;
   top: calc(50% - 48px / 2);
@@ -270,6 +268,8 @@ body {
   order: 0;
   flex-grow: 0;
   margin-left: 16px;
+  background: #fff;
+  margin-left: 24px;
 }
 
 .dot-box {
@@ -308,6 +308,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  align-items: center;
 }
 
 .prelist > p {
@@ -338,8 +339,7 @@ body {
 }
 
 .img-one {
-  margin-bottom: 5%;
-  margin-left: 39%;
+  margin-left: 45%;
 }
 
 .frameworks-utilised {
