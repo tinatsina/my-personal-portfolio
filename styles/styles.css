@@ -315,15 +315,15 @@ body {
   height: 24px;
   left: 12px;
   right: 78px;
-  top: calc(50% - 24px/2);
-  font-family: 'Poppins';
+  top: calc(50% - 24px / 2);
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: inline;
   align-items: center;
-  color: #000000;
+  color: #000;
   padding-left: 25px;
 }
 
@@ -359,7 +359,7 @@ body {
   display: flex;
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -371,7 +371,7 @@ body {
   width: 48px;
   height: 48px;
   left: 12px;
-  top: calc(50% - 48px/2 - 0.36px);
+  top: calc(50% - 48px / 2 - 0.36px);
   border: 1px solid #fff;
   display: inline;
   margin-top: 10px;
@@ -382,8 +382,8 @@ body {
   height: 24px;
   left: 76px;
   right: 12px;
-  top: calc(50% - 24px/2 - 0.36px);
-  font-family: 'Poppins';
+  top: calc(50% - 24px / 2 - 0.36px);
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -396,5 +396,5 @@ body {
 }
 
 .about-section-container {
-  background: url("../img/16.svg")
+  background: url("../img/16.svg");
 }
