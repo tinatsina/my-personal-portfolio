@@ -250,7 +250,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
+  padding-left: 15px;
   gap: 10px;
   width: 124px;
   height: 48px;
@@ -302,6 +302,7 @@ body {
 }
 
 .prelist {
+  display: flex;
   width: 327px;
   height: 72px;
   flex: none;
@@ -310,6 +311,7 @@ body {
 }
 
 .prelist > p {
+  margin-top: 10%;
   height: 24px;
   left: 12px;
   right: 78px;
@@ -322,10 +324,22 @@ body {
   display: inline;
   align-items: center;
   color: #000000;
+  padding-left: 25px;
 }
 
-.prelist > img {
-  margin-top: 16px;
+.img-two {
+  width: 10px;
+  margin-left: 47%;
+}
+
+.img-three {
+  width: 10px;
+  margin-left: 70%;
+}
+
+.img-one {
+  margin-bottom: 5%;
+  margin-left: 39%;
 }
 
 .frameworks-utilised {
