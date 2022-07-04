@@ -227,8 +227,7 @@ body {
 
 .components-used > li {
   float: inline-start;
-  /* display: flex;
-  flex-direction: row; */
+  list-style: none;
   align-items: center;
   padding: 4px 12px;
   height: 24px;
