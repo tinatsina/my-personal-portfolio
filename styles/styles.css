@@ -226,8 +226,9 @@ body {
 }
 
 .components-used > li {
-  display: flex;
-  flex-direction: row;
+  float: inline-start;
+  /* display: flex;
+  flex-direction: row; */
   align-items: center;
   padding: 4px 12px;
   height: 24px;
