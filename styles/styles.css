@@ -1,22 +1,20 @@
 body {
   background: #f7f7f9;
   width: 100%;
+  margin: 0%;
 }
 
 .headline {
   background-image: url("../img/02.svg");
   background-repeat: no-repeat;
-  height: 718px;
   background-size: cover;
   width: 100%;
-  
 }
 
 nav > ul {
-  display: inline;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   display: none;
 }
@@ -39,14 +37,13 @@ nav > ul {
 
 .header-text {
   padding-top: 100px;
-  width: 327px;
-  height: 150px;
+  padding-bottom: 25px;
+  width: 66%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
   align-items: center;
   color: #172b4d;
   flex: none;
@@ -56,8 +53,7 @@ nav > ul {
 }
 
 .paragraph-text {
-  width: 327px;
-  height: 146px;
+  width: 66%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -71,7 +67,7 @@ nav > ul {
 }
 
 .connect-text {
-  width: 127px;
+  width: 66%;
   height: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -82,7 +78,8 @@ nav > ul {
   flex: none;
   order: 0;
   flex-grow: 0;
-  padding-left: 24px;
+  margin: auto;
+  padding-top: 20px;
 }
 
 .the-icon-list {
@@ -90,7 +87,11 @@ nav > ul {
   flex: none;
   order: 3;
   flex-grow: 0;
-  padding-left: 24px;
+  width: 66%;
+  margin: auto;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .the-icon-list > li {

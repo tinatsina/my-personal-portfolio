@@ -4,17 +4,11 @@
   }
 
   .headline {
-      background-image: url("../img/19.svg");
-      background-size: contain;
-      width: 90%;
-    }
-
-    heaader {
-      height: 20px;
-    }
+    background-image: url("../img/19.svg");
+    background-size: contain;
+  }
 
   .header-text {
-    width: 80%;
     height: 150px;
     font-size: 48px;
     line-height: 60px;
@@ -23,7 +17,7 @@
 
   .nav-right {
     float: right;
-    width: 38%;
+    width: 40%;
     height: 12px;
     padding-right: 35px;
   }
@@ -35,6 +29,11 @@
   nav > ul > li {
     display: inline;
     margin-left: 13%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   nav > img {
