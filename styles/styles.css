@@ -149,7 +149,6 @@ nav > ul {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 572px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -414,7 +413,6 @@ nav > ul {
 .the-contact-section {
   background: #6070ff;
   width: 375px;
-  height: 879px;
   background-image: url("../img/18.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -423,7 +421,6 @@ nav > ul {
 
 .contact-section {
   align-items: center;
-  height: 709.17px;
 }
 
 .contact-top > h1 {
