@@ -8,10 +8,10 @@
   }
 
   .header-text {
-    height: 150px;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.37px;
+    padding-top: 16px;
   }
 
   .nav-right {
@@ -78,14 +78,33 @@
   .about-section-bottom {
     display: inline;
     width: 50%;
+    margin: auto;
   }
 
   .about-section-top {
     display: inline;
     width: 50%;
+    margin: auto;
   }
 
   .about-section-container {
     display: flex;
+    height: 680px;
+  }
+
+  .frameworks-utilised {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .frameworks-utilised > li > img {
+    display: block;
+    margin: 20px;
+  }
+
+  .frameworks-utilised > li {
+    display: block;
+    height: auto;
+    width: auto;
   }
 }
