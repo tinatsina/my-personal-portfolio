@@ -129,6 +129,17 @@ body {
   margin: auto;
 }
 
+.frameworks-utilised > li > img {
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px / 2 - 0.36px);
+  border: 1px solid #fff;
+  display: inline;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
 .snapshoot-portfolio > img:hover {
   width: 300px;
   height: 230px;
@@ -274,13 +285,13 @@ body {
   flex-grow: 0;
   background: #fff;
   margin-left: 24px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .see-project:hover {
   background-color: #6070ff;
   color: #fff;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .dot-box {
@@ -376,17 +387,6 @@ body {
   order: 0;
   flex-grow: 0;
   list-style: none;
-}
-
-.frameworks-utilised > li > img {
-  width: 48px;
-  height: 48px;
-  left: 12px;
-  top: calc(50% - 48px / 2 - 0.36px);
-  border: 1px solid #fff;
-  display: inline;
-  margin-top: 10px;
-  margin-left: 15px;
 }
 
 .frameworks-utilised > li > p {
