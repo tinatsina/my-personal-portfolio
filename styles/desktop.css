@@ -1,4 +1,4 @@
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 768px) {
   body {
     width: 100%;
   }
@@ -6,6 +6,9 @@
   .headline {
     background-image: url("../img/19.svg");
     height: 916px;
+    background-color: #fff;
+    border-bottom-left-radius: 70px;
+    margin-bottom: 50px;
   }
 
   .header-text {
@@ -111,5 +114,9 @@
 
   .content-portfolio {
     width: 100%;
+  }
+
+  .logo-left {
+    padding-left: 10%;
   }
 }
