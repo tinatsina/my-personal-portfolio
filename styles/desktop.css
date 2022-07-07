@@ -42,7 +42,7 @@
 
   .card-works {
     flex-direction: row;
-    width: 80%;
+    width: 1156px;
   }
 
   .snapshoot-portfolio > img {
@@ -70,6 +70,7 @@
     margin: auto;
     padding-bottom: 10px;
     margin-bottom: 50px;
+    
   }
 
   .contact-top-p {
@@ -107,5 +108,9 @@
     display: block;
     height: auto;
     width: auto;
+  }
+
+  .content-portfolio {
+    width: 100%;
   }
 }
