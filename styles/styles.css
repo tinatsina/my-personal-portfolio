@@ -279,7 +279,7 @@ nav > ul {
   order: 0;
   flex-grow: 0;
   background: #fff;
-  margin-left: 24px;
+  margin-left: 17%;
 }
 
 .dot-box {
@@ -408,6 +408,9 @@ nav > ul {
 .about-section-container {
   background: url("../img/16.svg");
   height: 1250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
 }
 
 .the-contact-section {

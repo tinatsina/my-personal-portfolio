@@ -74,4 +74,18 @@
   .contact-top-p {
     width: 50%;
   }
+
+  .about-section-bottom {
+    display: inline;
+    width: 50%;
+  }
+
+  .about-section-top {
+    display: inline;
+    width: 50%;
+  }
+
+  .about-section-container {
+    display: flex;
+  }
 }
