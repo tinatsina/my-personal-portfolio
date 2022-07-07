@@ -149,13 +149,11 @@ nav > ul {
 }
 
 .snapshoot-portfolio {
-  width: 295px;
-  height: 220px;
   border-radius: 8px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .card-works {
@@ -177,8 +175,6 @@ nav > ul {
 }
 
 .content-portfolio > h1 {
-  width: 295px;
-  height: 36px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -225,7 +221,6 @@ nav > ul {
 }
 
 .content-portfolio > p {
-  width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -245,7 +240,6 @@ nav > ul {
   align-items: center;
   padding: 0;
   gap: 8px;
-  width: 203px;
   height: 24px;
   flex: none;
   order: 2;
