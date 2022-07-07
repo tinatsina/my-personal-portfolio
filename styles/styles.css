@@ -52,6 +52,23 @@ nav > ul {
   margin: auto;
 }
 
+.header-text-about {
+  padding-top: 100px;
+  padding-bottom: 25px;
+  width: 66%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: auto;
+}
+
 .paragraph-text {
   width: 66%;
   font-family: 'Poppins', sans-serif;
@@ -321,7 +338,7 @@ nav > ul {
 
 .prelist {
   display: flex;
-  width: 66%;
+  width: 85%;
   margin: auto;
   height: 72px;
   flex: none;
@@ -331,7 +348,6 @@ nav > ul {
 }
 
 .prelist > p {
-  margin-top: 10%;
   height: 24px;
   left: 12px;
   right: 78px;
@@ -367,7 +383,7 @@ nav > ul {
   align-items: center;
   padding: 12px;
   gap: 12px;
-  width: 66%;
+  width: 85%;
   margin: auto;
   height: 248.15px;
   flex: none;
@@ -414,7 +430,8 @@ nav > ul {
 }
 
 .about-section-container {
-  background: url("../img/16.svg");
+  background: #fff;
+  border-top-right-radius: 70px;
   height: 1250px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -434,7 +451,6 @@ nav > ul {
 }
 
 .contact-top > h1 {
-  height: 56px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -444,12 +460,11 @@ nav > ul {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   margin: auto;
-  padding-top: 40%;
+  padding-top: 100px;
 }
 
 .contact-top-p {
   width: 327px;
-  height: 142px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -458,8 +473,8 @@ nav > ul {
   text-align: center;
   color: #ebebff;
   margin: auto;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 form {
@@ -475,8 +490,8 @@ form {
   border-radius: 8px;
   width: 80%;
   margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -493,8 +508,8 @@ textarea {
   border-radius: 8px;
   width: 80%;
   height: 140px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
