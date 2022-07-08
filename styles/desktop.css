@@ -1,0 +1,122 @@
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .headline {
+    background-image: url("../img/19.svg");
+    height: 916px;
+    background-color: #fff;
+    border-bottom-left-radius: 70px;
+    margin-bottom: 50px;
+  }
+
+  .header-text {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    padding-top: 354px;
+  }
+
+  .nav-right {
+    float: right;
+    width: 40%;
+    height: 12px;
+    padding-right: 35px;
+  }
+
+  nav > ul {
+    display: inline;
+  }
+
+  nav > ul > li {
+    display: inline;
+    margin-left: 13%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  nav > img {
+    display: none;
+  }
+
+  .card-works {
+    flex-direction: row;
+    width: 1156px;
+  }
+
+  .snapshoot-portfolio > img {
+    width: 544px;
+    height: 100%;
+  }
+
+  .desktop-reversed {
+    flex-direction: row-reverse;
+  }
+
+  .the-contact-section {
+    width: 100%;
+  }
+
+  .form-name {
+    width: 34%;
+  }
+
+  textarea {
+    width: 34%;
+  }
+
+  .get-in-touch {
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+  }
+
+  .contact-top-p {
+    width: 34%;
+  }
+
+  .about-section-bottom {
+    display: inline;
+    width: 60%;
+    margin: auto;
+  }
+
+  .about-section-top {
+    display: inline;
+    width: 40%;
+    margin: auto;
+  }
+
+  .about-section-container {
+    display: flex;
+    height: 680px;
+  }
+
+  .frameworks-utilised {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .frameworks-utilised > li > img {
+    display: block;
+    margin: 20px;
+  }
+
+  .frameworks-utilised > li {
+    display: block;
+    height: auto;
+    width: auto;
+  }
+
+  .content-portfolio {
+    width: 100%;
+  }
+
+  .logo-left {
+    padding-left: 10%;
+  }
+}

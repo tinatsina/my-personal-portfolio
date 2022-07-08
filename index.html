@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/desktop.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Web Portfolio</title>
 </head>
@@ -18,11 +19,16 @@
         <div class="nav-right">
             <nav>
                 <img src="img/00.png" alt="">
+                <ul class="navigation-list">
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </div>
     </header>
     <section class="headline">
-        <h1 class="header-text">I am Tinaye Glad to see you!</h1>
+        <h1 class="header-text">I am Tinaye <br>Glad to see you!</h1>
         <p class="paragraph-text">  I’m a software developer! I can help you build a product ,
                                     feature or website Look through some of my work and experience! 
                                     If you like what you see and have a project you need coded,
@@ -90,12 +96,12 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <button class="see-project">
+                <button type="submit" class="see-project see-project-padding">
                     See Project
                 </button>
             </div>
         </div>
-        <div class="card-works">
+        <div class="card-works desktop-reversed">
             <div class="snapshoot-portfolio">
                 <img src="img/08.png" alt="">
             </div>
@@ -104,26 +110,27 @@
                     Mulit-Post Stories
                 </h1>
                 <ul class="details-portfolio">
-                    <li class="canopy">CANOPY</li>
+                    <li class="canopy">FACEBOOK</li>
                     <li class="dot-box">
                         <img src="img/08.svg" alt="">
                     </li>
-                    <li class="no-canopy">Back End Dev</li>
+                    <li class="no-canopy">Full Stack Dev</li>
                     <li class="dot-box">
                         <img src="img/08.svg" alt="">
                     </li>
                     <li class="no-canopy">2015</li>
                 </ul>
                 <p>
-                    A daily selection of privately personalized reads;
-                    no accounts or sign-ups required.
+                    Experimental content creation feature that allows users to 
+                    add to an existing story over the course of a day without 
+                    spamming their friends.
                 </p>
                 <ul class="components-used">
                     <li>HTML</li>
-                    <li>CSS</li>
+                    <li>Ruby on rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button class="see-project">
+                <button type="submit" class="see-project see-project-padding">
                     See Project
                 </button>
             </div>
@@ -134,62 +141,64 @@
             </div>
             <div class="content-portfolio">
                 <h1>
-                    Tonic
+                    Facebook 360
                 </h1>
                 <ul class="details-portfolio">
-                    <li class="canopy">CANOPY</li>
+                    <li class="canopy">FACEBOOK</li>
                     <li class="dot-box">
                         <img src="img/08.svg" alt="">
                     </li>
-                    <li class="no-canopy">Back End Dev</li>
+                    <li class="no-canopy">Full Stack Dev</li>
                     <li class="dot-box">
                         <img src="img/08.svg" alt="">
                     </li>
                     <li class="no-canopy">2015</li>
                 </ul>
                 <p>
-                    A daily selection of privately personalized reads;
-                    no accounts or sign-ups required.
+                    Exploring the future of media in Facebook's 
+                    first Virtual Reality app; a place to discover 
+                    and enjoy 360 photos and videos on Gear VR.
                 </p>
                 <ul class="components-used">
                     <li>HTML</li>
-                    <li>CSS</li>
+                    <li>Ruby on rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button class="see-project">
+                <button type="submit" class="see-project see-project-padding">
                     See Project
                 </button>
             </div>
         </div>
-        <div class="card-works">
+        <div class="card-works desktop-reversed">
             <div class="snapshoot-portfolio">
                 <img src="img/10.png" alt="">
             </div>
             <div class="content-portfolio">
                 <h1>
-                    Mulit-Post Stories
+                    Uber Navigation
                 </h1>
                 <ul class="details-portfolio">
-                    <li class="canopy">CANOPY</li>
+                    <li class="canopy">UBER</li>
                     <li class="dot-box">
                         <img src="img/08.svg" alt="">
                     </li>
-                    <li class="no-canopy">Back End Dev</li>
+                    <li class="no-canopy">Lead Developer</li>
                     <li class="dot-box">
                         <img src="img/08.svg" alt="">
                     </li>
-                    <li class="no-canopy">2015</li>
+                    <li class="no-canopy">2018</li>
                 </ul>
                 <p>
-                    A daily selection of privately personalized reads;
-                    no accounts or sign-ups required.
+                    A smart assistant to make driving more safe, 
+                    efficient, and fun by unlocking your most 
+                    expensive computer: your car.
                 </p>
                 <ul class="components-used">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <button class="see-project">
+                <button type="submit" class="see-project see-project-padding">
                     See Project
                 </button>
             </div>
@@ -200,69 +209,73 @@
     
     <section>
         <div class="about-section-container">
-            <h1 class="header-text">About Myself</h1>
-            <p class="paragraph-text">  I’m a software developer! I can help you build a product ,
-                                        feature or website Look through some of my work and experience! 
-                                        If you like what you see and have a project you need coded,
-                                        don’t hestiate to contact me.</p>
-            <h4 class="connect-text">LET'S CONNECT</h4>
-            <div class="icons-list">
-                <ul class="the-icon-list">
+            <div class="about-section-top">
+                <h1 class="header-text-about">About Myself</h1>
+                <p class="paragraph-text">  I’m a software developer! I can help you build a product ,
+                                            feature or website Look through some of my work and experience! 
+                                            If you like what you see and have a project you need coded,
+                                            don’t hestiate to contact me.</p>
+                <h4 class="connect-text">LET'S CONNECT</h4>
+                <div class="icons-list">
+                    <ul class="the-icon-list">
+                        <li>
+                            <a href="#">
+                                <img src="img/06.svg" alt="linkedin icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/04.svg" alt="linkedin icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/01.svg" alt="linkedin icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/05.svg" alt="linkedin icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/03.svg" alt="linkedin icon">
+                            </a>
+                        </li>
+                    </ul>
+                    <button type="submit" class="see-project">
+                        Get my resume
+                    </button>
+                </div>
+            </div>
+            <div class="about-section-bottom">
+                <div class="prelist">
+                    <p>LANGUAGES</p>
+                    <img class="img-one" src="img/14.svg" alt="">
+                </div>
+                <ul class="frameworks-utilised">
                     <li>
-                        <a href="#">
-                            <img src="img/06.svg" alt="linkedin icon">
-                        </a>
+                        <img src="img/13.png" alt="">
+                        <p >JavaScript</p>
                     </li>
                     <li>
-                        <a href="#">
-                            <img src="img/04.svg" alt="linkedin icon">
-                        </a>
+                        <img src="img/11.png" alt="">
+                        <p >HTML</p>
                     </li>
                     <li>
-                        <a href="#">
-                            <img src="img/01.svg" alt="linkedin icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/05.svg" alt="linkedin icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/03.svg" alt="linkedin icon">
-                        </a>
+                        <img src="img/12.png" alt="">
+                        <p >CSS</p>
                     </li>
                 </ul>
-                <button class="see-project">
-                    Get my resume
-                </button>
-            </div>
-            <div class="prelist">
-                <p>LANGUAGES</p>
-                <img class="img-one" src="img/14.svg" alt="">
-            </div>
-            <ul class="frameworks-utilised">
-                <li>
-                    <img src="img/11.png" alt="">
-                    <p >JavaScript</p>
-                </li>
-                <li>
-                    <img src="img/12.png" alt="">
-                    <p >HTML</p>
-                </li>
-                <li>
-                    <img src="img/13.png" alt="">
-                    <p >CSS</p>
-                </li>
-            </ul>
-            <div class="prelist">
-                <p>Frameworks</p>
-                <img class="img-two" src="img/15.svg" alt="">
-            </div>
-            <div class="prelist">
-                <p>Skills</p>
-                <img class="img-three" src="img/15.svg" alt="">
+                <div class="prelist">
+                    <p>Frameworks</p>
+                    <img class="img-two" src="img/15.svg" alt="">
+                </div>
+                <div class="prelist">
+                    <p>Skills</p>
+                    <img class="img-three" src="img/15.svg" alt="">
+                </div>
             </div>
         </div>
     </section>
