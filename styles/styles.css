@@ -612,6 +612,7 @@ textarea {
 .modal-button {
   display: inline;
   align-items: center;
+  margin-top: 2em;
 }
 
 .snapshoot-portfolio > h1 {
@@ -666,4 +667,8 @@ textarea {
 
 #form-error.active {
   color: red;
+}
+
+.form-to-be-inlined {
+  display: inline;
 }

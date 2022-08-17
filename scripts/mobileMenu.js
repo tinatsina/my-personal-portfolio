@@ -64,15 +64,15 @@ modalButton4.addEventListener('click', () => {
 
 const modalObject = {
   modal_1: {
-    portHeading: 'Tonic',
-    portList1: 'CANOPIE',
-    portList2: 'Back End Dev',
-    portList3: '2015',
-    toolList1: 'XML',
+    portHeading: 'Gamers Conference website',
+    portList1: 'Pilot',
+    portList2: 'Front End Dev',
+    portList3: '2022',
+    toolList1: 'HTML',
     toolList2: 'SCSS',
-    toolList3: 'EcmaScript 6',
-    paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    backGround: 'img/xx.png',
+    toolList3: 'Javascript',
+    paragraph: 'A gaming Conference website where gamers can get information and also keep event updates.',
+    backGround: 'img/25.png',
   },
   modal_2: {
     portHeading: 'Multi Stories',
@@ -119,7 +119,7 @@ function dataFeeder(num) {
     modalComponent1.textContent = modalObject.modal_1.toolList1;
     modalComponent2.textContent = modalObject.modal_1.toolList2;
     modalComponent3.textContent = modalObject.modal_1.toolList3;
-    document.getElementById('modal-image-1').src = 'img/07.png';
+    document.getElementById('modal-image-1').src = 'img/25.png';
   } else if (num === 2) {
     modalHeader.textContent = modalObject.modal_2.portHeading;
     modalList1.textContent = modalObject.modal_2.portList1;
