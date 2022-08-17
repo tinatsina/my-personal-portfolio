@@ -14,17 +14,39 @@
 <body>
     <header class="top-header">
         <div class="logo-left">
-            <a class="logo-text" href="#">My Logo</a>
+            <a class="logo-text" href="#">LOGO</a>
         </div>
         <div class="nav-right">
             <nav>
-                <img src="img/00.png" alt="">
+                <a href="#" id="mobile-menu-button">
+                  <img src="img/00.png" alt="">
+                </a>
                 <ul class="navigation-list">
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="#the-portfolio-section">Portfolio</a></li>
+                    <li><a href="#the-about-section">About</a></li>
+                    <li><a href="#the-contact-section-target">Contact</a></li>
                 </ul>
             </nav>
+        </div>
+        <div class="mobile-menu">
+          <div class="header-cross">
+            <a href="#">
+              <img src="img/20.png" alt="">
+            </a>
+          </div>
+          <div class="list-of-tags">
+              <ul>
+                <li>
+                  <a href="#the-portfolio-section">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#the-about-section">About</a>
+                </li>
+                <li>
+                  <a href="#the-contact-section-target">Contact</a>
+                </li>
+              </ul>
+          </div>
         </div>
     </header>
     <section class="headline">
@@ -65,38 +87,83 @@
         </div>
     </section>
 
+    <!-- Modal SECTION -->
+
+    <div class="modal" id="modal">
+      <div class="card-works">
+        <div class="snapshoot-portfolio">
+          <h1 class="modal-header-text">
+            
+          </h1>
+          <a data-closed-button><img data-close-button src="img/23.svg" alt="" class="modal-close-anchor"></a>
+          <ul class="details-portfolio">
+              <li class="canopy modal-list1-text"></li>
+              <li class="dot-box">
+                  <img src="img/08.svg" alt="img">
+              </li>
+              <li class="no-canopy modal-list2-text"></li>
+              <li class="dot-box">
+                  <img src="img/08.svg" alt="">
+              </li>
+              <li class="no-canopy modal-list3-text"></li>
+          </ul>
+          <img id="modal-image-1" src="img/07.png" alt="img">
+        </div>
+        <div class="content-portfolio">
+            <p class="modal-paragraph-text">
+            </p>
+            <ul class="components-used">
+                <li class="component-text-1"></li>
+                <li class="component-text-2"></li>
+                <li class="component-text-3"></li>
+            </ul>
+            <form action="https://tinatsina.github.io/gamers-conference/" class="form-to-be-inlined">
+                <button type="submit" class="see-project see-project-padding modal-button">
+                    Live Demo <img src="img/21.svg" alt="">
+                </button>
+            </form>
+            <form action="https://github.com/tinatsina/gamers-conference" class="form-to-be-inlined">
+                <button type="submit" class="see-project see-project-padding modal-button">
+                    Source Code <img src="img/22.svg" alt="">
+                </button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div id="overlay"></div>
+
     <!-- PORTFOLIO SECTION -->
 
-    <section>
+    <section id="the-portfolio-section">
+        <!-- Project card 1 -->
         <div class="card-works">
             <div class="snapshoot-portfolio">
-                <img src="img/07.png" alt="img">
+                <img src="img/25.png" alt="img">
             </div>
             <div class="content-portfolio">
                 <h1>
-                    Tonic
+                    Gamers Conference website
                 </h1>
                 <ul class="details-portfolio">
-                    <li class="canopy">CANOPY</li>
+                    <li class="canopy">Pilot</li>
                     <li class="dot-box">
                         <img src="img/08.svg" alt="img">
                     </li>
-                    <li class="no-canopy">Back End Dev</li>
+                    <li class="no-canopy">Front End Dev</li>
                     <li class="dot-box">
                         <img src="img/08.svg" alt="">
                     </li>
-                    <li class="no-canopy">2015</li>
+                    <li class="no-canopy">2022</li>
                 </ul>
                 <p>
-                    A daily selection of privately personalized reads;
-                    no accounts or sign-ups required.
+                    A gaming Conference website where gamers can get information and also keep event updates.
                 </p>
                 <ul class="components-used">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding" id="modal-button-1">
                     See Project
                 </button>
             </div>
@@ -130,7 +197,7 @@
                     <li>Ruby on rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding" id="modal-button-2">
                     See Project
                 </button>
             </div>
@@ -164,7 +231,7 @@
                     <li>Ruby on rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding" id="modal-button-3">
                     See Project
                 </button>
             </div>
@@ -198,7 +265,7 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <button type="submit" class="see-project see-project-padding">
+                <button data-modal-target="#modal" type="submit" class="see-project see-project-padding" id="modal-button-4">
                     See Project
                 </button>
             </div>
@@ -207,7 +274,7 @@
     
     <!-- ABOUT SECTION -->
     
-    <section>
+    <section id="the-about-section">
         <div class="about-section-container">
             <div class="about-section-top">
                 <h1 class="header-text-about">About Myself</h1>
@@ -282,7 +349,7 @@
 
     <!-- CONTACT FORM SECTION -->
 
-    <section class="the-contact-section">
+    <section class="the-contact-section" id="the-contact-section-target">
         <div class="contact-section">
             <div class="contact-top">
                 <h1>
@@ -296,15 +363,22 @@
             </div>
             <div class="contact-bottom" >
                 <form method="post" action="https://formspree.io/f/xzboqlkl">
-                    <input type="text" class="form-name" name="name" maxlength="30" required placeholder="Enter your name">
-                    <input type="email"  class="form-name" name="email" required placeholder="Enter your email">
-                    <textarea name="message" maxlength="500" required placeholder="Write your message here"></textarea>
-                    <button class="get-in-touch" type="submit">
+                    <input id="form-name" type="text" class="form-name" name="name" maxlength="30" required placeholder="Enter your name">
+                    <input id="form-email" type="email"  class="form-name" name="email" required placeholder="Enter your email">
+                    <textarea id="form-text" name="message" maxlength="500" required placeholder="Write your message here"></textarea>
+                    <span id="form-error" class="contact-top-p"></span>
+                    <button id="form-button" class="get-in-touch" type="submit">
                         Get in Touch
                     </button>
                 </form>
             </div>
         </div>
     </section>
+    
+    <!-- JAVASCRIPT SECTION -->
+
+    <script src="scripts/mobileMenu.js"></script>
+    <script src="scripts/contactForm.js"></script>
+    <script src="scripts/localStorage.js"></script>
 </body>
 </html>
