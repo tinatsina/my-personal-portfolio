@@ -10,6 +10,12 @@
 - CSS
 - Markdown
 
+## Live Demo (if available)
+
+![Live Demo](img/14.png "Live Demo")
+
+[Live Demo Link](https://tinatsina.github.io/)
+
 ## Getting Started
 
 **Set up a linter for HTML and CSS**

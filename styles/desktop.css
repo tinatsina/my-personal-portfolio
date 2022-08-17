@@ -39,7 +39,7 @@
     line-height: 20px;
   }
 
-  nav > img {
+  nav > a > img {
     display: none;
   }
 
@@ -118,5 +118,14 @@
 
   .logo-left {
     padding-left: 10%;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .modal-close-anchor {
+    position: fixed;
+    left: 90%;
   }
 }
